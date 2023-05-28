@@ -6,20 +6,28 @@
 #     if n > 0:
 #         break
 # print('quantity of negative numbers', count)
-# 6.6
-cnt = 0
-n = int(input('number n'))
-while True:
-    a = int(input('number a'))
-    cnt += 1
-    if a < n:
-        x1 = 1 * a
-        x2 = 1 * cnt
-    if a > n and a != n: # неверное условие для определения числа следующего за числом н
-        x3 = 1 * a
-        x4 = 1 * cnt
-    if cnt == 5:
-        break
-print('summa a < n =', a)
-print('the ordinal number of the number', x1, 'this', x2)
-print('the ordinal number of the number', x3, 'this', x4)
+# # 6.6
+# v = 1
+# b = 1
+# cnt = 0
+# n = int(input('number n'))
+# while True:
+#     a = int(input('number a'))
+#     cnt += 1
+#     if a < n:
+#         x1 = 1 * a
+#         x2 = 1 * cnt
+#     elif cnt == x1 + 1:
+#         v *= a
+#         b *= cnt
+#     if cnt == 9:
+#         break
+# result = v - x1
+# print('summa a < n =', a)
+# print('the ordinal number of the number', x1)
+# print('this', x2)
+# print('the ordinal number of the number', v)
+# print('this', b)
+# print('разность меньшего от большего', result)
+
+
